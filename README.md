@@ -1,2 +1,1 @@
-# myFirstReacr
-study
+# my-react
