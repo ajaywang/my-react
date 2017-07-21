@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const PATHS = {
-    app: path.join(__dirname, 'app/010'),
+    app: path.join(__dirname, 'app/012'),
     build: path.join(__dirname, 'build'),
 };
 
