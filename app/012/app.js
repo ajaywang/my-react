@@ -13,8 +13,9 @@ class ContactsAppContainer extends Component{
 
     componentDidMount(){
         fetch('./contacts.json')
-        .then((response) => response.json)
+        .then((response) => response.json())
         .then((responseData) => {
+            console.log(responseData);
             this.setState({
                 contacts: responseData
             });
